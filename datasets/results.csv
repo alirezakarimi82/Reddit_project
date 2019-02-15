@@ -1,0 +1,15 @@
+Vectorizer,Classifier,best_params,train_recall,test_recall,train_accuracy,test_accuracy
+CountVectorizer,LogisticRegression,"{'model__C': 0.46415888336127775, 'model__penalty': 'l2', 'vect__ngram_range': (1, 2), 'vect__stop_words': 'english'}",0.9601338571220719,0.7809773123909249,0.8183261183261183,0.8173555507465916
+CountVectorizer,KNeighborsClassifier,"{'model__n_neighbors': 7, 'model__weights': 'distance', 'vect__ngram_range': (1, 1), 'vect__stop_words': 'english'}",0.9656627382511276,0.837260034904014,0.6768398268398268,0.6764769530404674
+CountVectorizer,MultinomialNB,"{'vect__ngram_range': (1, 1), 'vect__stop_words': 'english'}",0.8296231631019934,0.775305410122164,0.8312409812409812,0.8346678208180047
+CountVectorizer,RandomForestClassifier,"{'model__max_depth': None, 'model__n_estimators': 150, 'vect__ngram_range': (1, 2), 'vect__stop_words': 'english'}",0.9764295067656046,0.7927574171029669,0.802020202020202,0.8067517853278511
+CountVectorizer,AdaBoostClassifier,"{'model__n_estimators': 200, 'vect__ngram_range': (1, 1), 'vect__stop_words': None}",0.7340317183180561,0.6906631762652705,0.7545454545454545,0.7533001514823632
+CountVectorizer,GradientBoostingClassifier,"{'model__n_estimators': 200, 'vect__ngram_range': (1, 1), 'vect__stop_words': None}",0.8438818565400844,0.8115183246073299,0.7588023088023088,0.764336723652889
+CountVectorizer,SVC,"{'model__C': 10.0, 'model__gamma': 0.01, 'vect__ngram_range': (1, 1), 'vect__stop_words': None}",0.9333624327076968,0.7835951134380453,0.8163059163059163,0.817788357498377
+TfidfVectorizer,LogisticRegression,"{'model__C': 2.154434690031882, 'model__penalty': 'l2', 'vect__ngram_range': (1, 2), 'vect__stop_words': 'english'}",0.9428197293758184,0.8115183246073299,0.8272727272727273,0.8318545769314001
+TfidfVectorizer,KNeighborsClassifier,"{'model__n_neighbors': 15, 'model__weights': 'uniform', 'vect__ngram_range': (1, 1), 'vect__stop_words': None}",0.6951840535428488,0.6605584642233857,0.7917027417027417,0.7916035490153647
+TfidfVectorizer,MultinomialNB,"{'vect__ngram_range': (1, 2), 'vect__stop_words': 'english'}",0.9128473737814637,0.7822862129144852,0.8347041847041847,0.8370482579528241
+TfidfVectorizer,RandomForestClassifier,"{'model__max_depth': None, 'model__n_estimators': 150, 'vect__ngram_range': (1, 2), 'vect__stop_words': 'english'}",0.9786119598428634,0.7818499127399651,0.7981962481962482,0.8108634494698117
+TfidfVectorizer,AdaBoostClassifier,"{'model__n_estimators': 200, 'vect__ngram_range': (1, 1), 'vect__stop_words': None}",0.8262767350501964,0.7783595113438045,0.7654401154401155,0.7673663709153863
+TfidfVectorizer,GradientBoostingClassifier,"{'model__n_estimators': 200, 'vect__ngram_range': (1, 2), 'vect__stop_words': None}",0.8636694311072312,0.7866492146596858,0.7621933621933622,0.7634711101493183
+TfidfVectorizer,SVC,"{'model__C': 1.0, 'model__gamma': 1.0, 'vect__ngram_range': (1, 1), 'vect__stop_words': None}",0.9474756292739706,0.8132635253054101,0.831024531024531,0.8405107119671067

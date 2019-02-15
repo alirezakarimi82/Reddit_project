@@ -1,0 +1,88 @@
+
+Grid search using CountVectorizer and LogisticRegression ...
+
+Fitting 5 folds for each of 80 candidates, totalling 400 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed:   26.7s
+[Parallel(n_jobs=-1)]: Done 196 tasks      | elapsed:  2.1min
+[Parallel(n_jobs=-1)]: Done 400 out of 400 | elapsed:  6.8min finished
+
+Grid search using CountVectorizer and KNeighborsClassifier ...
+
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed:  2.4min
+[Parallel(n_jobs=-1)]: Done 120 out of 120 | elapsed:  6.2min finished
+
+Grid search using CountVectorizer and MultinomialNB ...
+
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+[Parallel(n_jobs=-1)]: Done  20 out of  20 | elapsed:   11.9s finished
+
+Grid search using CountVectorizer and RandomForestClassifier ...
+
+Fitting 5 folds for each of 36 candidates, totalling 180 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed: 49.1min
+[Parallel(n_jobs=-1)]: Done 180 out of 180 | elapsed: 83.3min finished
+
+Grid search using CountVectorizer and AdaBoostClassifier ...
+
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed:  2.1min
+[Parallel(n_jobs=-1)]: Done  60 out of  60 | elapsed:  3.3min finished
+
+Grid search using CountVectorizer and GradientBoostingClassifier ...
+
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed:  5.0min
+[Parallel(n_jobs=-1)]: Done  60 out of  60 | elapsed:  8.1min finished
+
+Grid search using CountVectorizer and SVC ...
+
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed: 23.9min
+[Parallel(n_jobs=-1)]: Done 196 tasks      | elapsed: 101.4min
+[Parallel(n_jobs=-1)]: Done 446 tasks      | elapsed: 244.5min
+[Parallel(n_jobs=-1)]: Done 500 out of 500 | elapsed: 290.9min finished
+
+Grid search using TfidfVectorizer and LogisticRegression ...
+
+Fitting 5 folds for each of 80 candidates, totalling 400 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed:   26.4s
+[Parallel(n_jobs=-1)]: Done 196 tasks      | elapsed:  2.0min
+[Parallel(n_jobs=-1)]: Done 400 out of 400 | elapsed:  6.6min finished
+
+Grid search using TfidfVectorizer and KNeighborsClassifier ...
+
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=-1)]: Done 120 out of 120 | elapsed:  6.0min finished
+
+Grid search using TfidfVectorizer and MultinomialNB ...
+
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+[Parallel(n_jobs=-1)]: Done  20 out of  20 | elapsed:   12.0s finished
+
+Grid search using TfidfVectorizer and RandomForestClassifier ...
+
+Fitting 5 folds for each of 36 candidates, totalling 180 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed: 46.7min
+[Parallel(n_jobs=-1)]: Done 180 out of 180 | elapsed: 79.4min finished
+
+Grid search using TfidfVectorizer and AdaBoostClassifier ...
+
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed:  3.0min
+[Parallel(n_jobs=-1)]: Done  60 out of  60 | elapsed:  4.5min finished
+
+Grid search using TfidfVectorizer and GradientBoostingClassifier ...
+
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed:  7.0min
+[Parallel(n_jobs=-1)]: Done  60 out of  60 | elapsed: 11.0min finished
+
+Grid search using TfidfVectorizer and SVC ...
+
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+[Parallel(n_jobs=-1)]: Done  46 tasks      | elapsed: 23.9min
+[Parallel(n_jobs=-1)]: Done 196 tasks      | elapsed: 102.6min
+[Parallel(n_jobs=-1)]: Done 446 tasks      | elapsed: 238.9min
+[Parallel(n_jobs=-1)]: Done 500 out of 500 | elapsed: 280.3min finished
